@@ -57,9 +57,9 @@
 
         DEF {
             bindings = <
-&kp ESC    &sk LEFT_SHIFT                   &kp T                            &kp UP               &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9
-&sk LCTRL  &kp TAB         &sk LGUI  &kp A  &kp S         &kp E    &kp LEFT  &kp V     &kp RIGHT  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6
-           &sk LEFT_ALT                     &kp SPACE                        &kp DOWN             &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3
+&kp ESC    &kt LEFT_SHIFT                   &kp T                            &kp UP               &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9
+&kt LCTRL  &kp TAB         &kt LGUI  &kp A  &kp S         &kp E    &kp LEFT  &kp TAB     &kp RIGHT  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6
+           &kt LEFT_ALT                     &kp SPACE                        &kp DOWN             &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3
 &kp SPACE  &kp J                            &kp LEFT_ALT  &kp E    &kp L     &kp N                &kp N0        &kp DOT       &kp ENTER
             >;
         };
