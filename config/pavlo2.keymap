@@ -58,10 +58,19 @@
         DEF {
             bindings = <
 &kp ESC    &kt LEFT_SHIFT                   &kp T                            &kp UP               &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9
-&kt LCTRL  &kp TAB         &kt LGUI  &kp A  &kp S         &kp E    &kp LEFT  &kp TAB     &kp RIGHT  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6
+&kt LCTRL  &kp TAB         &kt LGUI  &kp A  &kp S         &kp E    &kp LEFT  &kp TAB   &kp RIGHT  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6
            &kt LEFT_ALT                     &kp SPACE                        &kp DOWN             &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3
-&kp SPACE  &kp J                            &kp LEFT_ALT  &kp E    &kp L     &kp N                &kp N0        &kp DOT       &kp ENTER
+&kp SPACE  &mo 1                            &kp LEFT_ALT  &kp E    &kp L     &kp N                &kp N0        &kp DOT       &kp ENTER
             >;
         };
+
+        LWR {
+                    bindings = <
+        &trans  &trans                  &trans                            &bt BT_SEL 1               &kp F7   &kp F8   &kp F9
+        &trans  &trans  &trans  &trans  &trans  &trans      &bt BT_SEL 0  &bt BT_CLR   &bt BT_SEL 2  &kp F4   &kp F5   &kp F6
+                &trans                  &trans                            &trans                     &kp F1   &kp F2   &kp F3
+        &trans  &trans                  &trans  &trans      &trans        &trans                     &kp F10  &kp F11  &kp F12
+                    >;
+                };
     };
 };
