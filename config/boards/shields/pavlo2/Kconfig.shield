@@ -1,0 +1,5 @@
+config SHIELD_PAVLO2_LEFT
+    def_bool $(shields_list_contains, pavlo2_left)
+
+config SHIELD_PAVLO2_RIGHT
+    def_bool $(shields_list_contains, pavlo2_right)
