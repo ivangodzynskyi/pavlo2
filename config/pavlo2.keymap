@@ -15,41 +15,49 @@
         combo_q {
             bindings = <&kp Q>;
             key-positions = <2 10 3 13>;
+            timeout-ms = 100;
         };
 
         combo_w {
             bindings = <&kp W>;
             key-positions = <10 2 3 15>;
+            timeout-ms = 100;
         };
 
         combo_r {
             bindings = <&kp R>;
             key-positions = <2 3>;
+            timeout-ms = 100;
         };
 
         combo_backspace {
             bindings = <&kp BACKSPACE>;
             key-positions = <10 13>;
+            timeout-ms = 100;
         };
 
         combo_y {
             bindings = <&kp Y>;
             key-positions = <20 3 13>;
+            timeout-ms = 100;
         };
 
         combo_u {
             bindings = <&kp U>;
             key-positions = <20 3>;
+            timeout-ms = 100;
         };
 
         combo_i {
             bindings = <&kp I>;
             key-positions = <2 21>;
+            timeout-ms = 100;
         };
 
         combo_o {
             bindings = <&kp O>;
             key-positions = <10 20 3 15>;
+            timeout-ms = 100;
         };
     };
 
