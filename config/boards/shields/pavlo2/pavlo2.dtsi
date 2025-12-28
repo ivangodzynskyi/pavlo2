@@ -1,5 +1,9 @@
 #include <dt-bindings/zmk/matrix_transform.h>
 
+&physical_layout {
+    transform = <&default_transform>;
+};
+
 / {
     chosen {
         zmk,kscan = &kscan0;
@@ -36,6 +40,3 @@
     };
 };
 
-&physical_layout {
-    transform = <&default_transform>;
-};
