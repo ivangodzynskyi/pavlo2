@@ -21,169 +21,169 @@
         combo_w {
             bindings = <&kp W>;
             key-positions = <10 2 3 15>;
-            timeout-ms = 100;
+            timeout-ms = <100>;
         };
 
         combo_r {
             bindings = <&kp R>;
             key-positions = <2 15>;
-            timeout-ms = 100;
+            timeout-ms = <100>;
         };
 
         combo_backspace {
             bindings = <&kp BACKSPACE>;
             key-positions = <10 13>;
-            timeout-ms = 100;
+            timeout-ms = <100>;
         };
 
         combo_y {
             bindings = <&kp Y>;
             key-positions = <20 3 13>;
-            timeout-ms = 100;
+            timeout-ms = <100>;
         };
 
         combo_u {
             bindings = <&kp U>;
             key-positions = <20 3>;
-            timeout-ms = 100;
+            timeout-ms = <100>;
         };
 
         combo_i {
             bindings = <&kp I>;
             key-positions = <2 21>;
-            timeout-ms = 100;
+            timeout-ms = <100>;
         };
 
         combo_o {
             bindings = <&kp O>;
             key-positions = <10 20 3 15>;
-            timeout-ms = 100;
+            timeout-ms = <100>;
         };
 
         combo_p {
             bindings = <&kp P>;
             key-positions = <20 15 3>;
-            timeout-ms = 100;
+            timeout-ms = <100>;
         };
 
         combo_s {
             bindings = <&kp S>;
             key-positions = <10 2 21 15>;
-            timeout-ms = 100;
+            timeout-ms = <100>;
         };
 
         combo_d {
             bindings = <&kp D>;
             key-positions = <10 2 13 21>;
-            timeout-ms = 100;
+            timeout-ms = <100>;
         };
 
         combo_f {
             bindings = <&kp F>;
             key-positions = <15 3 12>;
-            timeout-ms = 100;
+            timeout-ms = <100>;
         };
 
         combo_g {
             bindings = <&kp G>;
             key-positions = <21 15 12>;
-            timeout-ms = 100;
+            timeout-ms = <100>;
         };
 
         combo_h {
             bindings = <&kp H>;
             key-positions = <10 15>;
-            timeout-ms = 100;
+            timeout-ms = <100>;
         };
 
         combo_j {
             bindings = <&kp J>;
             key-positions = <2 13 21>;
-            timeout-ms = 100;
+            timeout-ms = <100>;
         };
 
         combo_k {
             bindings = <&kp K>;
             key-positions = <2 12 21 15>;
-            timeout-ms = 100;
+            timeout-ms = <100>;
         };
 
         combo_l {
             bindings = <&kp L>;
             key-positions = <2 15 21>;
-            timeout-ms = 100;
+            timeout-ms = <100>;
         };
 
         combo_semicolon {
             bindings = <&kp SEMICOLON>;
             key-positions = <20 3>;
-            timeout-ms = 100;
+            timeout-ms = <100>;
         };
 
         combo_apost {
             bindings = <&kp SINGLE_QUOTE>;
             key-positions = <2 13>;
-            timeout-ms = 100;
+            timeout-ms = <100>;
         };
 
         combo_z {
             bindings = <&kp Z>;
             key-positions = <2 12 13 21>;
-            timeout-ms = 100;
+            timeout-ms = <100>;
         };
 
         combo_x {
             bindings = <&kp X>;
             key-positions = <10 20 3 13>;
-            timeout-ms = 100;
+            timeout-ms = <100>;
         };
 
         combo_c {
             bindings = <&kp C>;
             key-positions = <20 21>;
-            timeout-ms = 100;
+            timeout-ms = <100>;
         };
 
         combo_v {
             bindings = <&kp V>;
             key-positions = <2 3>;
-            timeout-ms = 100;
+            timeout-ms = <100>;
         };
 
         combo_b {
             bindings = <&kp B>;
             key-positions = <2 13 3>;
-            timeout-ms = 100;
+            timeout-ms = <100>;
         };
 
         combo_n {
             bindings = <&kp N>;
             key-positions = <10 2 21>;
-            timeout-ms = 100;
+            timeout-ms = <100>;
         };
 
         combo_m {
             bindings = <&kp M>;
             key-positions = <10 20 21 15>;
-            timeout-ms = 100;
+            timeout-ms = <100>;
         };
 
         combo_comma {
             bindings = <&kp COMMA>;
             key-positions = <12 13 21>;
-            timeout-ms = 100;
+            timeout-ms = <100>;
         };
 
         combo_dot {
             bindings = <&kp PERIOD>;
             key-positions = <12 21>;
-            timeout-ms = 100;
+            timeout-ms = <100>;
         };
 
         combo_slash {
             bindings = <&kp SLASH>;
             key-positions = <2 12 21>;
-            timeout-ms = 100;
+            timeout-ms = <100>;
         };
     };
 
