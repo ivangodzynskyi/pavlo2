@@ -30,12 +30,12 @@
 
         combo_backspace {
             bindings = <&kp BACKSPACE>;
-            key-positions = <13 2>;
+            key-positions = <13 10>;
         };
 
         combo_y {
             bindings = <&kp Y>;
-            key-positions = <13 10>;
+            key-positions = <13 2>;
         };
 
         combo_u {
